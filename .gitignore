@@ -1,0 +1,15 @@
+# Environment
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Large data (2.2 GB, download from Canvas / team Drive into eeg_starter/data/pre_processed/)
+eeg_starter/data/pre_processed/
+eeg_starter/data/edf_files/
+downloads/
+
+# Training outputs
+*.ckpt
+runs/*
+!runs/k15_full_overlap.pt
+checkpoints/
